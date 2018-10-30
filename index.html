@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./_ionicons_svg_ios-rocket.png">
+    <meta name="description" content="Hi!, I'm Victor, nice to meet you!">
+    <meta name="keywords" content="Victor Larini, larinivitor, HTML, CSS, HTML5, CSS3, JavaScript, React, web, design, development, websites, sites, portfolio, responsive, , front end">
+    <title>Hey there!</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="res/css/styles.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#main-nav">
+
+    <div class="loader-screen">
+        <ul class="loading-bar">
+            <li class="loading-line"></li>
+            <li class="loading-line"></li>
+            <li class="loading-line"></li>
+            <li class="loading-line"></li>
+            <li class="loading-line"></li>
+        </ul>
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <header class="main-header" id="main-header">
+                <nav class="navbar">
+                    <h6><span class="sr-only">Main navigation</span></h6>
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="nav-toggle-btn collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="ion-navicon nav-open"></span>
+                                <span class="ion-android-close nav-close"></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="main-nav">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#about-me" class="nav-link">About me</a></li>
+                                <li><a href="#tools" class="nav-link">Tools</a></li>
+                                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="overlay"></div>
+                <div class="welcome-box">
+                    <h1>Welcome to my digital portfolio</h1>
+                    <p>My name is Victor, nice to meet you!</p>
+                </div>
+                <nav class="social-nav">
+                    <h6><span class="sr-only">Social navigation</span></h6>
+                    <ul class="nav invisible">
+                        <li><a class="social-btn social-fb" href="https://www.facebook.com/larinivitor" target="_blank"><span class="icon ion-logo-facebook"></span></a></li>
+                        <li><a class="social-btn social-linkedin" href="https://www.linkedin.com/in/victorugo-godinho/?locale=en_US" target="_blank"><span class="icon ion-logo-linkedin"></span></a></li>
+                        <li><a class="social-btn social-github" href="https://github.com/larinivitor" target="_blank"><span class="icon ion-logo-github"></span></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- About me -->
+        <div class="row">
+            <section class="container about-me" id="about-me">
+
+                <div class="row">
+                    <h2>Ok, but who are you?</h2>
+                </div>
+
+                <div class="row visible-xs visible-sm">
+                    <div class="col-sm-12 bg-me">
+                    </div>
+                </div>
+
+                <div class="row feats-row">
+                    <div class="col-md-6 feats-container">
+                        <section>
+                            <h3><span class="ion-ios-finger-print icon-header"></span>Who I am</h3>
+                            <p>Hey there, nice to have you here! My name is Victor Larini. 
+                                I have always had a passion for development, and because of that I worked in several segments within the technology industry, 
+                                like information security and C#/Java application development. But my true love lies with web development.</p>
+                        </section>
+                    </div>
+                    <div class="col-md-6 feat-bg bg-me hidden-xs hidden-sm invisible"></div>
+                </div>
+
+                <div class="row feats-row">
+                    <div class="col-md-6 feat-bg bg-whatido hidden-xs hidden-sm invisible">
+                    </div>
+                    <div class="col-md-6 feats-container">
+                        <section>
+                            <h3><span class="ion-ios-rocket icon-header"></span>What I do</h3>
+                            <p>As a developer and an application user I love UI/UX and cool animations, so I try to bring that feeling into my work. 
+                                I use responsive design, so that your page will look beautiful on everywhere. 
+                                You want to be organically found in Google searches? Then you can count on my SEO skills. 
+                                In short, I bring out the most out of current technologies in order to deliver the best results for you. </p>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="row feats-row">
+                    <div class="col-md-6 feats-container">
+                        <section>
+                            <h3><span class="icon ion-md-pizza icon-header"></span>Neat facts</h3>
+                            <p>In addition to developing for the web using HTML, CSS and JavaScript, I also have experience with C, C# and Java, as well as MySQL and .NET. 
+                                When I'm not working I like to spend my time with friends, watching a good movie, maybe reading a good book, and, whenever possible, playing a good video game. 
+                                My native language is portuguese, but I have an advanced knowledge of english, intermediate japanese and soon german as well.</p>
+                        </section>
+                    </div>
+                    <div class="col-md-6 feat-bg bg-facts hidden-xs hidden-sm invisible"></div>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- Tools -->
+        <section class="row dark-container tools-row">
+            <div class="container tools" id="tools">
+                <div class="row">
+                    <h2>My tools</h2>
+                </div>
+
+                <div class="row">
+                    <ul class="libs-showcase clearfix">
+                        <li><img class="js-tool-logo invisible" id="angular-logo" src="res/img/angular-logo.png" alt="AngularJS logo"></li>
+                        <li><img class="js-tool-logo invisible" id="sass-logo" src="res/img/sass-logo.png" alt="Sass logo"></li>
+                        <li><img class="js-tool-logo invisible" id="jquery-logo" src="res/img/jquery-logo.svg" alt="jQuery logo"></li>
+                        <li><img class="js-tool-logo invisible" id="bootstrap-logo" src="res/img/bootstrap-logo.svg" alt="Bootstrap logo"></li>
+                        <li><img class="js-tool-logo invisible" id="gimp-logo" src="res/img/ps-logo.png" alt="Gimp logo"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <div class="portfolio-row row">
+            <section class="container portfolio" id="portfolio">
+                <div class="row">
+                    <h2>Portfolio</h2>
+                </div>
+
+                <div class="row">
+                    <nav>
+                        <h6><span class="sr-only">Portfolio navigation</span></h6>
+                        <ul class="nav nav-pills portfolio-nav filter-options">
+                            <li class="active-tab" data-filter="all">All</li>
+                            <li data-filter="1">Sites</li>
+                            <li data-filter="2">Code</li>
+                            <li data-filter="3">Graphics</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="row">
+                    <div class="showcase-container clearfix" id="showcase-container">
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="1">
+                            <img class="img-responsive showcase-img" src="res/img/showcase_cafe.png" alt="XtremeTravels website">
+                            <div class="item-desc">
+                                <a class="button" href="https://cafeeprosa.com.br" target="_blank">Visit</a>
+                            </div>
+                        </section>
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="1">
+                            <img class="img-responsive showcase-img" src="res/img/showcase_voando.png" alt="XtremeTravels website">
+                            <div class="item-desc">
+                                <a class="button" href="http://escolavoandoalto.com.br/" target="_blank">Visit</a>
+                            </div>
+                        </section>
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="1">
+                            <img class="img-responsive showcase-img" src="res/img/showcase_lingua.png" alt="XtremeTravels website">
+                            <div class="item-desc">
+                                <a class="button" href="http://www.lingua2.com.br/" target="_blank">Visit</a>
+                            </div>
+                        </section>
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="1">
+                            <img class="img-responsive showcase-img" src="res/img/showcase_patas.png" alt="XtremeTravels website">
+                            <div class="item-desc">
+                                <a class="button" href="http://www.patasepenas.com.br/servicospep/" target="_blank">Visit</a>
+                            </div>
+                        </section>
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="2">
+                            <img class="img-responsive showcase-img" src="res/img/showcase_blog.png" alt="Filterizr plugin">
+                            <div class="item-desc">
+                                <h4>GameBlogger</h4>
+                                <p>I created it for fun. An application where, after you have logged in, you would make game reviews and discuss with friends on the network.</p>
+                                <a class="button github-btn" href="https://github.com/larinivitor/GameBlogger" target="_blank">GitHub</a>
+                            </div>
+                        </section>
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="2">
+                                <img class="img-responsive showcase-img" src="res/img/showcase_street.png" alt="Filterizr plugin">
+                                <div class="item-desc">
+                                    <h4>StreetFighter Selector</h4>
+                                    <p>I created it for fun. Character selector of one of the most famous fighting games.</p>
+                                    <a class="button github-btn" href="https://github.com/larinivitor/StreetFighterSelector target="_blank">GitHub</a>
+                                </div>
+                        </section>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+
+        <!-- Contact -->
+        <div class="row contact-row dark-container">
+            <section class="container contact" id="contact">
+                <div class="row">
+                    <h2>Get in touch</h2>
+                </div>
+                <div class="row">
+                    <form id="contact-form" method="post" action="http://formspree.io/larinivitor@gmail.com">
+                        <div class="row">
+                            <input name="form-name" id="form-name" type="text" placeholder="your name" required>
+                        </div>
+                        <div class="row">
+                            <input name="form-email" id="form-email" type="email" placeholder="your email" required>
+                        </div>
+                        <div class="row">
+                            <textarea name="form-msg" id="form-msg" placeholder="your message" required></textarea>
+                        </div>
+                        <div class="row">
+                            <button type="submit" class="button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+    <script src="ext/js/jquery.filterizr.min.js"></script>
+    <script src="ext/js/particles.min.js"></script>
+    <script src="res/js/typewriter.js"></script>
+    <script src="res/js/app.js"></script>
+
+</body>
+</html>

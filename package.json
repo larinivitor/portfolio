@@ -1,0 +1,31 @@
+{
+  "name": "larinivitor.port",
+  "version": "1.0.0",
+  "description": "Portfolio of Victor Larini",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larinivitor/portfolio"
+  },
+  "keywords": [
+    "frontend",
+    "victor",
+    "larini",
+    "personal",
+    "portfolio",
+    "filterizr"
+  ],
+  "author": "Victor Larini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larinivitor/larinivitor.port/issues"
+  },
+  "homepage": "https://github.com/larinivitor/larinivitor.port#readme",
+  "dependencies": {
+    "bourbon": "^4.2.7"
+  }
+}
